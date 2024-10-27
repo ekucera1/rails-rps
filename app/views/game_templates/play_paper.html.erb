@@ -1,0 +1,27 @@
+<body>
+    <div>
+      <a href="/rock">Play Rock</a>
+    </div>
+    <div>
+      <a href="/paper">Play Paper</a>
+    </div>
+    <div>
+      <a href="/scissors">Play Scissors</a>
+    </div>
+    <div>
+      <a href="/">Rules</a>
+    </div>
+    <%= yield %>
+
+  </body>
+<h2>
+    We played paper!
+  </h2>
+
+  <h2>
+   They played <%= @random_move %>!
+  </h2>
+
+  <h2>
+    We <%= @outcome %>!
+  </h2>
